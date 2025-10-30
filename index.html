@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outil 2 - Structuration du Contenu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Outil 2 : Structuration du Contenu</h1>
+        <div class="header-controls">
+            <input type="file" id="json-upload" accept=".json" style="display: none;">
+            <button id="load-json">Charger JSON</button>
+            <button id="download-json" disabled>Télécharger JSON</button>
+            <span id="completion-indicator">0% complété</span>
+        </div>
+    </header>
+
+    <main>
+        <div id="tree-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
